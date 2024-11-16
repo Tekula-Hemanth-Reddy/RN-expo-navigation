@@ -22,3 +22,12 @@ Process:
             };
         };
 9. Move app.json to app.config.ts and create one more file app.config.js and import and export app.config.ts in app.config.js
+10. To use External font you need to download those fonts
+    go to 'https://fonts.google.com/' and download fonts which are suitable
+11. Load those fonts in _layout.tsx for loading use 'useFonts' from 'expo-font'
+12. Add Error boundary (error-boundary.tsx) to catch errors in code
+13. Add any Context or interceptor or any other things in _layout.tsx
+14. Add config module which consist of colors, constants, styles, css-constants, strings, metrics
+15. Add 'react-native-device-detection' for what kind of device we are using ios, android, tablet, ipad
+16. Add helper functions
+17. Install 'moment' for dates

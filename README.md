@@ -21,3 +21,4 @@ Process:
                 presets: ['babel-preset-expo'],
             };
         };
+9. Move app.json to app.config.ts and create one more file app.config.js and import and export app.config.ts in app.config.js

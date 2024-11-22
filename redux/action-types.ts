@@ -1,0 +1,4 @@
+export const SAVE_TOKEN = 'SAVE_TOKEN';
+export const REMOVE_TOKEN = 'REMOVE_TOKEN';
+export const IS_INTERNET_REACHABLE = 'IS_INTERNET_REACHABLE';
+export const USER_DETAILS = 'USER_DETAILS';

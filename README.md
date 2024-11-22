@@ -31,3 +31,6 @@ Process:
 15. Add 'react-native-device-detection' for what kind of device we are using ios, android, tablet, ipad
 16. Add helper functions
 17. Install 'moment' for dates
+18. Add place-holder files and assests and AppHeader
+19. Adding Redux 'npm install redux react-redux redux-thunk --save'
+20. Create Redux Folder and Set Action Types, Actions, Reducer and Store

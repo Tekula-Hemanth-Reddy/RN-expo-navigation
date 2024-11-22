@@ -20,6 +20,8 @@
     "react-native": "0.76.2",
     "react-native-device-detection": "^0.2.1",
     "react-native-screens": "~4.0.0",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1",
     "rn-input-libary": "^1.1.0"
   },
   "devDependencies": {

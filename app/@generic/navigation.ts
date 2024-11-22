@@ -1,11 +1,11 @@
 import { CommonActions } from '@react-navigation/native';
 import { useNavigation, useRouter } from "expo-router";
 import { useContext } from 'react';
-import { links } from './navigation-links';
+import links from './navigation-links';
 
 //send object by stringify'ing it JSON.STRINGIFY()
 //cannot pass url because it might alter route
-export function useInnNavigation() {
+export default function useRnNavigation() {
     const router = useRouter();
     const nav = useNavigation();
 

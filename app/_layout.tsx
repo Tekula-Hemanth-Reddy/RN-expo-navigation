@@ -1,10 +1,12 @@
 import { NativeStackHeaderProps } from '@react-navigation/native-stack';
 import { useFonts } from "expo-font";
-import * as Linking from 'expo-linking';
 import { Stack } from 'expo-router';
 import "expo-router/entry";
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import ErrorBoundary from './@generic/error-boundary';
+import cssConstants from '../config/css-constants';
+import AppHeader from './@generic/app-header';
+import links from './@generic/navigation-links';
 
 export default function Main() {
     const [fontsLoaded] = useFonts({
@@ -27,10 +29,21 @@ export default function Main() {
         // return <SplashScreen />;
     }
 
-    // notifications 
     return (
         <ErrorBoundary>
-            <></>
+            <Stack screenOptions={{
+                headerShown: false,
+                contentStyle: { backgroundColor: cssConstants.BACKGROUND_COLOR },
+                // header: (props: NativeStackHeaderProps) => <AppHeader {...props}></AppHeader>
+
+            }}>
+                <Stack.Screen
+                    name={links.INDEX}
+                    options={{
+                        headerShown: true, headerTitle: 'index'
+                    }}
+                />
+            </Stack>
         </ErrorBoundary>
     );
 }

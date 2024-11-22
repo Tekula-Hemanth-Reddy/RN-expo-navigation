@@ -16,6 +16,14 @@ export default function useRnNavigation() {
             // go to some specific place
             router.replace('')
     }
+    const layout = () => {
+        router.push(
+            {
+                pathname: links.LAYOUT,
+                params: {}
+            }
+        );
+    }
 
     const canGoBack = () => {
         return router.canGoBack();
@@ -50,6 +58,6 @@ export default function useRnNavigation() {
     // }
 
     return {
-        goBack, canGoBack
+        goBack, canGoBack, layout
     };
 }

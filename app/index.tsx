@@ -1,11 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { RnButton } from 'rn-input-libary';
+import useRnNavigation from './@generic/navigation';
 
 export default function App() {
+    const navigation = useRnNavigation();
     return (
         <View style={styles.container}>
             <Text>Open up App.tsx to start working on your app!</Text>
-            <StatusBar style="auto" />
+            <RnButton text='move' primary small onPress={() => navigation.layout()} />
         </View>
     );
 }

@@ -1,5 +1,6 @@
 const links = {
-    INDEX: `index`
+    INDEX: `index`,
+    LAYOUT: `layout`
 }
 
 export default links

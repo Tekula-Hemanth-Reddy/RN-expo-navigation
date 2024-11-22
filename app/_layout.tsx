@@ -34,7 +34,7 @@ export default function Main() {
             <Stack screenOptions={{
                 headerShown: false,
                 contentStyle: { backgroundColor: cssConstants.BACKGROUND_COLOR },
-                // header: (props: NativeStackHeaderProps) => <AppHeader {...props}></AppHeader>
+                header: (props: NativeStackHeaderProps) => <AppHeader {...props}></AppHeader>
 
             }}>
                 <Stack.Screen
@@ -42,6 +42,9 @@ export default function Main() {
                     options={{
                         headerShown: true, headerTitle: 'index'
                     }}
+                />
+                <Stack.Screen name={links.LAYOUT}
+                    initialParams={{}}
                 />
             </Stack>
         </ErrorBoundary>

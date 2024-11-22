@@ -42,3 +42,5 @@ Process:
 26. install 'jwt-decode' for decoding jwt token
 27. Add Service Interceptor
 28. Add Base Service
+29. For Accordian refer : https://www.npmjs.com/package/react-native-collapsible
+30. Install 'expo-haptics' for animation effects

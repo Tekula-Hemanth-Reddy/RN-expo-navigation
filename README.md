@@ -32,5 +32,13 @@ Process:
 16. Add helper functions
 17. Install 'moment' for dates
 18. Add place-holder files and assests and AppHeader
-19. Adding Redux 'npm install redux react-redux redux-thunk --save'
+19. Adding Redux 'npm install redux react-redux redux-thunk --save' - https://hamidrdeveloper.medium.com/how-to-use-redux-in-react-native-c02058c8e8b4
 20. Create Redux Folder and Set Action Types, Actions, Reducer and Store
+21. Install '@react-native-community/netinfo' for network information
+22. Install 'axios, axios-retry'
+23. axios-retry - to re-try request in any error cases
+24. Install '@react-native-async-storage/async-storage' for async Storage
+25. Install 'expo-task-manager' for monitoring pending and current tasks
+26. install 'jwt-decode' for decoding jwt token
+27. Add Service Interceptor
+28. Add Base Service

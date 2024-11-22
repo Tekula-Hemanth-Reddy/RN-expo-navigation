@@ -1,8 +1,14 @@
-export function getMessageForErrorCodes(message: string, error_code: string) {
-    switch (error_code) {
+export const error_code = {
+    1001: 1001,
+    1002: 1002,
+    404: 404
+}
+
+export function getMessageForErrorCodes(message: string, errorCode: string) {
+    switch (errorCode) {
         case 'code':
             return `code`
         default:
-            return error_code
+            return errorCode
     }
 }

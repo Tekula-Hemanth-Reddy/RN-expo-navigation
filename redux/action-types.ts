@@ -1,4 +1,10 @@
 export const SAVE_TOKEN = 'SAVE_TOKEN';
 export const REMOVE_TOKEN = 'REMOVE_TOKEN';
+export const SAVE_REFRESH_TOKEN = 'SAVE_REFRESH_TOKEN';
+export const REMOVE_REFRESH_TOKEN = 'REMOVE_REFRESH_TOKEN';
+export const SAVE_TOKEN_PAYLOAD = 'SAVE_TOKEN_PAYLOAD';
+
+export const LOADING = 'LOADING'; // for request handling
+
 export const IS_INTERNET_REACHABLE = 'IS_INTERNET_REACHABLE';
 export const USER_DETAILS = 'USER_DETAILS';

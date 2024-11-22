@@ -1,4 +1,10 @@
 
+export interface ResponseJson<T> {
+    data: T;
+    success: boolean;
+    message: string;
+}
+
 export interface NoImageProps {
     noImageData?: boolean,
 }
